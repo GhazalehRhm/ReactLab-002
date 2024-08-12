@@ -1,0 +1,24 @@
+[data-theme="light"] {
+  --color-bg: #eeeeee;
+  --color-fg: #292828;
+  --color-qb-bg :#a8a7a7;
+  --color-qb-fg: #2e2d2d;
+}
+
+[data-theme="dark"] {
+  --color-bg: #000000;
+  --color-fg: #eeeeee;
+  --color-qb-bg :  #1a1919;
+  --color-qb-fg: #eeeeee;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--color-bg);
+  align-items: center;
+  color: var(--color-fg);
+}
+
+
